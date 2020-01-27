@@ -1,5 +1,4 @@
 package com.example.helloworldjava;
-
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -12,6 +11,7 @@ import android.widget.Toast;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+    Calculator calculator;
     Button b1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         b1 = findViewById(R.id.b1);
         b1.setOnClickListener(this);
     }
-
     @Override
     public void onClick(View v){
         //Random r = new Random();

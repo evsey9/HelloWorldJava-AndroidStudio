@@ -1,2 +1,2 @@
 # HelloWorldJava-AndroidStudio
-TODO: make Calculator class which does calculator stuff
+TODO: make com.example.helloworldjava.Calculator class actually do stuff
