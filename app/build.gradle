@@ -4,7 +4,7 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.example.helloworldjava"
+        applicationId "com.example.caaalculator"
         minSdkVersion 24
         targetSdkVersion 29
         versionCode 1
@@ -20,6 +20,7 @@ android {
 }
 
 dependencies {
+    implementation 'org.mozilla:rhino:1.7R4'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'

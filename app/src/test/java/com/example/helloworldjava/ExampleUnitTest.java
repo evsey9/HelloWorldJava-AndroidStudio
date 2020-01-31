@@ -1,4 +1,4 @@
-package com.example.helloworldjava;
+package com.example.caaalculator;
 
 import org.junit.Test;
 
